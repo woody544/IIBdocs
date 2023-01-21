@@ -16,7 +16,13 @@ kernelspec:
 
 1. Check the IIB-CSE-PROJECT-TRACKER.xlsx file to identify CSE batches ready to merge their respective CSE projects. Projects are ready to merge when ALL indexers have completed their projects for the batch. CSE Projects circled below are ready to merge.
 
-fig. 1 
+```{figure} ../images/Picture1.png
+---
+height: 150px
+name: spreadsheet-fig
+---
+IIB-CSE-PROJECT-TRACKER.xlsx
+```
 
 2. In CSE, open each IIB indexer’s completed CSE project, one at a time.
 
