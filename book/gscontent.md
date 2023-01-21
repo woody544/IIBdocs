@@ -11,7 +11,7 @@ kernelspec:
   name: python3
 ---
 
-# PART 1: IDENTIFY AND EXPORT COMPLETED CSE PROJECTS SHOWN IN THE FOLLOWING STEP BY STEP INSTRUCTIONS
+# PART 1: IDENTIFY AND EXPORT COMPLETED CSE PROJECTS
 
 1. Check the IIB-CSE-PROJECT-TRACKER.xlsx file to identify CSE batches ready to merge their respective CSE projects. Projects are ready to merge when ALL indexers have completed their projects for the batch. CSE Projects circled below are ready to merge.
 
@@ -35,7 +35,7 @@ fig. 5
 
 6. Repeat for each CSE project for the batch, until all COMPLETED files are downloaded
 
-# PART 2: RUN THE GOLDEN SET MERGE CODE AS SHOWN IN THE FOLLOWING STEP BY STEP INSTRUCTIONS
+# PART 2: RUN THE GOLDEN SET MERGE CODE AS SHOWN
 
 7. You should have both the AnnotationData and the DataProcessing repositories cloned to your local PC at the same level, and up to date (pull first). 
 
@@ -99,7 +99,7 @@ fig. 13
 
 IF YOU HAVE ANY PROBLEMS AT ALL RUNNING THE CODE, CONTACT JENNIFER IMMEDIATELY BEFORE YOU ATTEMPT TO ALTER THE CODE.
 
-# PART 3: CREATE and ASSIGN A NEW GOLDEN SET CSE PROJECT SHOWN IN THE FOLLOWING STEP BY STEP INSTRUCTIONS
+# PART 3: CREATE and ASSIGN A NEW GOLDEN SET CSE PROJECT
 
 16. Go to CSE, log in, and open the current NALT_ONLY_PROJECT_TEMPLATE_2022. 
 
