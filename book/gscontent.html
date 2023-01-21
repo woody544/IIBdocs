@@ -452,26 +452,59 @@ title="Print to PDF"
 <ol class="simple">
 <li><p>Check the IIB-CSE-PROJECT-TRACKER.xlsx file to identify CSE batches ready to merge their respective CSE projects. Projects are ready to merge when ALL indexers have completed their projects for the batch. CSE Projects circled below are ready to merge.</p></li>
 </ol>
-<p>fig. 1</p>
+<figure class="align-default" id="spreadsheet-fig">
+<a class="reference internal image-reference" href="../_images/Picture1.png"><img alt="../_images/Picture1.png" src="../_images/Picture1.png" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">IIB-CSE-PROJECT-TRACKER.xlsx</span><a class="headerlink" href="#spreadsheet-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <ol class="simple">
 <li><p>In CSE, open each IIB indexer’s completed CSE project, one at a time.</p></li>
 </ol>
-<p>fig. 2 (series of 5 images of CSE project blocks)</p>
+<figure class="align-default" id="id12">
+<img alt="../_images/Picture2.png" src="../_images/Picture2.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">CSE Projects</span><a class="headerlink" href="#id12" title="Permalink to this image">#</a></p>
+<div class="legend">
 <ol class="simple">
 <li><p>In the open CSE project, go to the ‘Documents’ tab.</p></li>
 </ol>
-<p>fig 3.</p>
+<figure class="align-default" id="id11">
+<img alt="../_images/Picture3.png" src="../_images/Picture3.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id11" title="Permalink to this image">#</a></p>
+<div class="legend">
 <ol class="simple">
 <li><p>Select the down-arrow icon circled below, and click on ‘COGX (x docs)  (x = the number of docs in the CSE project).</p></li>
 </ol>
-<p>fig. 4</p>
+<figure class="align-default" id="id10">
+<img alt="../_images/Picture4.png" src="../_images/Picture4.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id10" title="Permalink to this image">#</a></p>
+<div class="legend">
 <ol class="simple">
 <li><p>Save to the AnnotationData repository, in ‘Cogito-SAMPLE-HI-INDEXER-CSE-exports’ directory. ONLY ONE BATCH (project set) should be in this directory when you start the merge code!!</p></li>
 </ol>
-<p>fig. 5</p>
+<figure class="align-default" id="id9">
+<img alt="../_images/Picture5.png" src="../_images/Picture5.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id9" title="Permalink to this image">#</a></p>
+<div class="legend">
 <ol class="simple">
 <li><p>Repeat for each CSE project for the batch, until all COMPLETED files are downloaded</p></li>
 </ol>
+</div>
+</figcaption>
+</figure>
+</div>
+</figcaption>
+</figure>
+</div>
+</figcaption>
+</figure>
+</div>
+</figcaption>
+</figure>
 </section>
 <section id="part-2-run-the-golden-set-merge-code-as-shown">
 <h2>PART 2: RUN THE GOLDEN SET MERGE CODE AS SHOWN<a class="headerlink" href="#part-2-run-the-golden-set-merge-code-as-shown" title="Permalink to this headline">#</a></h2>
@@ -485,17 +518,23 @@ title="Print to PDF"
 Right click on the DataProcessing folder, select ‘GitBash Here’</p></li>
 </ol>
 <p>IF YOU HAVE ANY PROBLEMS AT ALL RUNNING THE CODE, CONTACT JENNIFER IMMEDIATELY BEFORE YOU ATTEMPT TO ALTER THE CODE.</p>
-<p>fig. 6</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>a.	In the bash window.
-  i.   Type git pull to ensure your branch is up to date (Also, git status to see if you have an local changes that need to be committed.)
-  ii.  Check branches if needed git branch
-  iii. Create a new branch if needed git branch golden_cse
-  iv.  Switch to a golden set branch for this task git checkout golden_cse 
-  v.   Note the prompt in the GitBash window shows you are no longer in the main branch. 
-  vi.  Type in   python -m idlelib to launch Idle (python default editor).
-</pre></div>
-</div>
-<p>fig. 7</p>
+<figure class="align-default" id="id8">
+<img alt="../_images/Picture6.png" src="../_images/Picture6.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id8" title="Permalink to this image">#</a></p>
+<div class="legend">
+<p>a.	In the bash window.
+i.   Type git pull to ensure your branch is up to date (Also, git status to see if you have an local changes that need to be committed.)
+ii.  Check branches if needed git branch
+iii. Create a new branch if needed git branch golden_cse
+iv.  Switch to a golden set branch for this task git checkout golden_cse
+v.   Note the prompt in the GitBash window shows you are no longer in the main branch.
+vi.  Type in   python -m idlelib to launch Idle (python default editor).</p>
+<figure class="align-default" id="id7">
+<img alt="../_images/Picture7.png" src="../_images/Picture7.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id7" title="Permalink to this image">#</a></p>
+<div class="legend">
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>  vii. Keep this bash window open.
 </pre></div>
 </div>
@@ -503,35 +542,83 @@ Right click on the DataProcessing folder, select ‘GitBash Here’</p></li>
 <li><p>While on the branch (GitBash window still up), in the python shell that pops up, select
 ‘file &gt; open’</p></li>
 </ol>
-<p>fig .8</p>
+<figure class="align-default" id="id6">
+<img alt="../_images/Picture8.png" src="../_images/Picture8.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id6" title="Permalink to this image">#</a></p>
+<div class="legend">
 <ol class="simple">
 <li><p>While on the branch (GitBash window still up), from the Idle Shell you just opened, click ‘File’ to open the python file ~ \DataProcessing\GoldenSetMergeProcessing\<a class="reference external" href="http://goldensetmerge.py">goldensetmerge.py</a></p></li>
 </ol>
-<p>fig. 9</p>
+<figure class="align-default" id="id5">
+<img alt="../_images/Picture9.png" src="../_images/Picture9.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id5" title="Permalink to this image">#</a></p>
+<div class="legend">
 <ol>
 <li><p>In the open <a class="reference external" href="http://goldensetmerge.py">goldensetmerge.py</a> python file, select Run &gt;Run Module… it will automatically find the indexers CSE project files you previously exported to</p>
 <p>~\AnnotationData\data\Cogito-SAMPLE-HI-INDEXER-CSE-exports</p>
 </li>
 </ol>
 <p>CAUTION: At this point, you should have ONLY one Batch represented with the exported zip files. So, if 5 indexers completed individual files, then you should have ONLY five zip files in this directory before you run the code (directory image not shown here). The code will provide output to monitor the process in the GitBash, and in the python shell. Keep them all up, and do not close them! Once the code is running, there is nothing you need to do until it completes.</p>
-<p>fig. 10</p>
+<figure class="align-default" id="id4">
+<img alt="../_images/Picture10.png" src="../_images/Picture10.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id4" title="Permalink to this image">#</a></p>
+<div class="legend">
 <ol class="simple">
 <li><p>FIND THE CSE golden set articles in a zip file, usually containing about 60 +/- articles that were in the individual CSE projects. YOU NEED THE CORRECT FILE FOR UPLOAD TO CSE.
 The zipped file in the subdirectory for EXTRACTED articles for CSE goldenset project creation. NOTE this is very deep in the file structure. THIS will be the file for upload into the CSE GOLDENSET files are NOW READY for CSE!
 ~\AnnotationData\data\CSE-ARTICLE-extractions\ zips4CSEprojects\ Batch-ddddd-Food_and_Nutrition-GS.zip.  See an example zip file and which directory to find it, below.</p></li>
 </ol>
 <p>This step is included here just to confirm the zip file exists. You will use this in the CSE project creation step in PART 3. PLEASE ASK JENNIFER IF THIS IS UNCLEAR.</p>
-<p>fig. 11</p>
+<figure class="align-default" id="id3">
+<img alt="../_images/Picture11.png" src="../_images/Picture11.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+<div class="legend">
 <ol class="simple">
 <li><p>The indexer zip exports will automatically be moved to the sub-directory
 ~/AnnotationData/data/Cogito-SAMPLE-HI-INDEXER-CSE-exports/GS-merged-CSE-assigned once the merge is completed.</p></li>
 </ol>
-<p>fig. 12</p>
+<figure class="align-default" id="id2">
+<img alt="../_images/Picture12.png" src="../_images/Picture12.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+<div class="legend">
 <ol class="simple">
 <li><p>Only zip files still needing to be merged should be stored directly in GS-merged-CSE-assigned directory, i.e. only ONE BATCH, or set, of CSE project files should be in this directory when you start the merge code.</p></li>
 </ol>
-<p>fig. 13</p>
+<figure class="align-default" id="id1">
+<img alt="../_images/Picture13.png" src="../_images/Picture13.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 13 </span><span class="caption-text">Add Caption</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+<div class="legend">
 <p>IF YOU HAVE ANY PROBLEMS AT ALL RUNNING THE CODE, CONTACT JENNIFER IMMEDIATELY BEFORE YOU ATTEMPT TO ALTER THE CODE.</p>
+</div>
+</figcaption>
+</figure>
+</div>
+</figcaption>
+</figure>
+</div>
+</figcaption>
+</figure>
+</div>
+</figcaption>
+</figure>
+</div>
+</figcaption>
+</figure>
+</div>
+</figcaption>
+</figure>
+</div>
+</figcaption>
+</figure>
+</div>
+</figcaption>
+</figure>
 </section>
 <section id="part-3-create-and-assign-a-new-golden-set-cse-project">
 <h2>PART 3: CREATE and ASSIGN A NEW GOLDEN SET CSE PROJECT<a class="headerlink" href="#part-3-create-and-assign-a-new-golden-set-cse-project" title="Permalink to this headline">#</a></h2>
