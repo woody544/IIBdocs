@@ -18,7 +18,7 @@ kernelspec:
 
 ```{figure} ../images/Picture1.png
 ---
-height: 150px
+height: 400px
 name: spreadsheet-fig
 ---
 IIB-CSE-PROJECT-TRACKER.xlsx
@@ -26,19 +26,38 @@ IIB-CSE-PROJECT-TRACKER.xlsx
 
 2. In CSE, open each IIB indexer’s completed CSE project, one at a time.
 
-fig. 2 (series of 5 images of CSE project blocks)
+
+```{figure} ../images/Picture2.png
+---
+name: spreadsheet-fig
+---
+CSE Projects
 
 3. In the open CSE project, go to the ‘Documents’ tab.
 
-fig 3. 
+```{figure} ../images/Picture3.png
+---
+name: spreadsheet-fig
+---
+Add Caption
 
 4. Select the down-arrow icon circled below, and click on ‘COGX (x docs)  (x = the number of docs in the CSE project). 
 
-fig. 4
+```{figure} ../images/Picture4.png
+---
+
+name: spreadsheet-fig
+---
+Add Caption
 
 5. Save to the AnnotationData repository, in ‘Cogito-SAMPLE-HI-INDEXER-CSE-exports’ directory. ONLY ONE BATCH (project set) should be in this directory when you start the merge code!!
 
-fig. 5
+```{figure} ../images/Picture5.png
+---
+
+name: spreadsheet-fig
+---
+Add Caption
 
 6. Repeat for each CSE project for the batch, until all COMPLETED files are downloaded
 
@@ -56,28 +75,48 @@ Right click on the DataProcessing folder, select ‘GitBash Here’
 
 IF YOU HAVE ANY PROBLEMS AT ALL RUNNING THE CODE, CONTACT JENNIFER IMMEDIATELY BEFORE YOU ATTEMPT TO ALTER THE CODE.
 
-fig. 6
+```{figure} ../images/Picture6.png
+---
 
-    a.	In the bash window.
-      i.   Type git pull to ensure your branch is up to date (Also, git status to see if you have an local changes that need to be committed.)
-      ii.  Check branches if needed git branch
-      iii. Create a new branch if needed git branch golden_cse
-      iv.  Switch to a golden set branch for this task git checkout golden_cse 
-      v.   Note the prompt in the GitBash window shows you are no longer in the main branch. 
-      vi.  Type in   python -m idlelib to launch Idle (python default editor).
+name: spreadsheet-fig
+---
+Add Caption
 
-fig. 7
+a.	In the bash window.
+i.   Type git pull to ensure your branch is up to date (Also, git status to see if you have an local changes that need to be committed.)
+ii.  Check branches if needed git branch
+iii. Create a new branch if needed git branch golden_cse
+iv.  Switch to a golden set branch for this task git checkout golden_cse 
+v.   Note the prompt in the GitBash window shows you are no longer in the main branch. 
+vi.  Type in   python -m idlelib to launch Idle (python default editor).
+
+```{figure} ../images/Picture7.png
+---
+
+name: spreadsheet-fig
+---
+Add Caption
 
       vii. Keep this bash window open.
 
 10. While on the branch (GitBash window still up), in the python shell that pops up, select
  ‘file > open’
 
-fig .8
+```{figure} ../images/Picture8.png
+---
+
+name: spreadsheet-fig
+---
+Add Caption
 
 11. While on the branch (GitBash window still up), from the Idle Shell you just opened, click ‘File’ to open the python file ~ \DataProcessing\GoldenSetMergeProcessing\goldensetmerge.py
 
-fig. 9
+```{figure} ../images/Picture9.png
+---
+
+name: spreadsheet-fig
+---
+Add Caption
 
 12. In the open goldensetmerge.py python file, select Run >Run Module… it will automatically find the indexers CSE project files you previously exported to 
 
@@ -85,7 +124,12 @@ fig. 9
 
 CAUTION: At this point, you should have ONLY one Batch represented with the exported zip files. So, if 5 indexers completed individual files, then you should have ONLY five zip files in this directory before you run the code (directory image not shown here). The code will provide output to monitor the process in the GitBash, and in the python shell. Keep them all up, and do not close them! Once the code is running, there is nothing you need to do until it completes.
 
-fig. 10
+```{figure} ../images/Picture10.png
+---
+
+name: spreadsheet-fig
+---
+Add Caption
 
 13. FIND THE CSE golden set articles in a zip file, usually containing about 60 +/- articles that were in the individual CSE projects. YOU NEED THE CORRECT FILE FOR UPLOAD TO CSE.
 The zipped file in the subdirectory for EXTRACTED articles for CSE goldenset project creation. NOTE this is very deep in the file structure. THIS will be the file for upload into the CSE GOLDENSET files are NOW READY for CSE! 
@@ -93,16 +137,30 @@ The zipped file in the subdirectory for EXTRACTED articles for CSE goldenset pro
 
 This step is included here just to confirm the zip file exists. You will use this in the CSE project creation step in PART 3. PLEASE ASK JENNIFER IF THIS IS UNCLEAR. 
 
-fig. 11
+```{figure} ../images/Picture11.png
+---
+
+name: spreadsheet-fig
+---
+Add Caption
 
 14. The indexer zip exports will automatically be moved to the sub-directory
 ~/AnnotationData/data/Cogito-SAMPLE-HI-INDEXER-CSE-exports/GS-merged-CSE-assigned once the merge is completed. 
 
-fig. 12
+```{figure} ../images/Picture12.png
+---
+
+name: spreadsheet-fig
+---
+Add Caption
 
 15. Only zip files still needing to be merged should be stored directly in GS-merged-CSE-assigned directory, i.e. only ONE BATCH, or set, of CSE project files should be in this directory when you start the merge code.
 
-fig. 13
+```{figure} ../images/Picture13.png
+---
+name: spreadsheet-fig
+---
+Add Caption
 
 IF YOU HAVE ANY PROBLEMS AT ALL RUNNING THE CODE, CONTACT JENNIFER IMMEDIATELY BEFORE YOU ATTEMPT TO ALTER THE CODE.
 
