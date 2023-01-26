@@ -50,7 +50,11 @@ name: spreadsheet-fig
 ---
 Add Caption
 
-5. Save to the AnnotationData repository, in ‘Cogito-SAMPLE-HI-INDEXER-CSE-exports’ directory. ONLY ONE BATCH (project set) should be in this directory when you start the merge code!!
+5. Save to the AnnotationData repository, in ‘Cogito-SAMPLE-HI-INDEXER-CSE-exports’ directory. 
+```{note}
+ONLY ONE BATCH (project set) should be in this directory when you start the merge code!!
+```
+
 
 ```{figure} ../images/Picture5.png
 ---
@@ -72,8 +76,9 @@ Add Caption
 
 9. Open up a GitBash window in your local DataProcessing repository. (Assumes you have cloned this repository to your local machine, and have set up GitBash. If you have not, please do so.)
 Right click on the DataProcessing folder, select ‘GitBash Here’
-
+```{note}
 IF YOU HAVE ANY PROBLEMS AT ALL RUNNING THE CODE, CONTACT JENNIFER IMMEDIATELY BEFORE YOU ATTEMPT TO ALTER THE CODE.
+```
 
 ```{figure} ../images/Picture6.png
 ---
@@ -82,13 +87,13 @@ name: spreadsheet-fig
 ---
 Add Caption
 
-a.	In the bash window.
-i.   Type git pull to ensure your branch is up to date (Also, git status to see if you have an local changes that need to be committed.)
-ii.  Check branches if needed git branch
-iii. Create a new branch if needed git branch golden_cse
-iv.  Switch to a golden set branch for this task git checkout golden_cse 
-v.   Note the prompt in the GitBash window shows you are no longer in the main branch. 
-vi.  Type in   python -m idlelib to launch Idle (python default editor).
+    a.	In the bash window.
+      i.   Type git pull to ensure your branch is up to date (Also, git status to see if you have an local changes that need to be committed.)
+      ii.  Check branches if needed git branch
+      iii. Create a new branch if needed git branch golden_cse
+      iv.  Switch to a golden set branch for this task git checkout golden_cse 
+      v.   Note the prompt in the GitBash window shows you are no longer in the main branch. 
+      vi.  Type in   python -m idlelib to launch Idle (python default editor).
 
 ```{figure} ../images/Picture7.png
 ---
